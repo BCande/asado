@@ -1,0 +1,49 @@
+
+.main-wrapper
+{
+  min-height: 100vh;  
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.contenedorWhite
+{
+  border-radius: 2%;
+  background-color: white !important;
+}
+.contenedorGeneral
+{
+    
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    border: solid;    
+    /*border-radius: 2%;*/
+    display: flex;  /*esto hace que el rectangulo de login quede en el medio*/
+
+}
+
+.section
+{
+  
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn
+{ 
+  margin-left:  60px !important;
+}
+.contenedorTabla
+{
+  justify-content: center;
+  align-items: center;
+}
+
+.form-check-input
+{
+  padding: 10% !important;
+}
